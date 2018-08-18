@@ -11,7 +11,4 @@ $linkedList->push(2);
 $linkedList->push(3);
 $linkedList->push(4);
 
-$linkedList->insertAfter(2,5);
-$linkedList->insertAtTheEnd(6);
-
 $linkedList->printList();
