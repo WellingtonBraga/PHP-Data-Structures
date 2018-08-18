@@ -1,5 +1,7 @@
 <?php
 
+namespace PHPDataStructures\LinkedLists;
+
 /**
  * Class Node
  *
