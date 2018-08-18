@@ -62,7 +62,7 @@ class LinkedList
      *
      * @param int $data
      */
-    public function push(int $data): void {
+    public function insertAtTheBeginning(int $data): void {
         $newNode = new Node($data);
         $newNode->next = $this->head;
         $this->head = $newNode;
