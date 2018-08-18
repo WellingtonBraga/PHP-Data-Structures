@@ -1,5 +1,7 @@
 <?php
 
+namespace PHPDataStructures\LinkedLists;
+
 /**
  * Class LinkedList
  *
@@ -42,7 +44,7 @@ class LinkedList
      *
      * @return int
      */
-    public function countNodesInLinkedList() {
+    public function countNodes() {
         $node  = $this->head;
 
         $count = 0;
@@ -60,7 +62,7 @@ class LinkedList
      *
      * @param int $data
      */
-    public function push(int $data) {
+    public function push(int $data): void {
         $newNode = new Node($data);
         $newNode->next = $this->head;
         $this->head = $newNode;

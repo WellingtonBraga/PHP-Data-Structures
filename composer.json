@@ -1,0 +1,23 @@
+{
+  "name": "WellingtonBraga/php-data-structures",
+  "description": "Implementation of some data structures in PHP.",
+  "authors": [
+    {
+      "name": "Wellington Braga",
+      "email": "wellington.braga.inatel@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "psr/http-message": "^1.0",
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPDataStructures\\": ""
+    }
+  }
+}
