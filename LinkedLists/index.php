@@ -7,8 +7,8 @@ use PHPDataStructures\LinkedLists\Node;
 
 $linkedList = new LinkedList(new Node(1));
 
-$linkedList->push(2);
-$linkedList->push(3);
-$linkedList->push(4);
+$linkedList->insertAtTheBeginning(2);
+$linkedList->insertAtTheBeginning(3);
+$linkedList->insertAtTheBeginning(4);
 
 $linkedList->printList();
