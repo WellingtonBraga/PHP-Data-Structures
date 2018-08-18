@@ -34,7 +34,7 @@ class LinkedList
         $node  = $this->head;
 
         while($node !== null) {
-            echo $node->data . ' -> ';
+            echo $node->data . ' ';
             $node = $node->next;
         }
     }
