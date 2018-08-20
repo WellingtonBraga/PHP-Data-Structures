@@ -11,4 +11,5 @@ $linkedList->insertAtTheBeginning(2);
 $linkedList->insertAtTheBeginning(3);
 $linkedList->insertAtTheBeginning(4);
 
+// Prints the list
 $linkedList->printList();
