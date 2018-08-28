@@ -32,3 +32,5 @@ jobs:
           paths:
             - ./vendor
           key: v1-dependencies-{{ checksum "composer.json" }}
+
+      - run: ./vendor/bin/phpunit LinkedLists/Tests/LinkedListTest.php
