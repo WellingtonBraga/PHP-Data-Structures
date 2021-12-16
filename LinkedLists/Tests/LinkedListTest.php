@@ -22,6 +22,6 @@ class LinkedListTest extends TestCase
         $linkedList->insertAtTheBeginning(3);
         $linkedList->insertAtTheBeginning(4);
 
-        $this->assertSame(4, $linkedList->countNodes());
+        $this->assertSame(5, $linkedList->countNodes());
     }
 }
